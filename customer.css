@@ -1,0 +1,16 @@
+.bttn1 {
+    background-color: rgb(168, 233, 241);
+    position: relative;
+    left: 75px;
+    padding: 6px 13px;
+    border-radius: 16px;
+    background-size: 200% 100%;
+}
+.bttn {
+    position: relative;
+    left: 30px;
+    background-color: rgb(204, 204, 237);
+    border-radius: 16px;
+    background-size: 200% 100%;
+    padding: 6px 13px;
+}

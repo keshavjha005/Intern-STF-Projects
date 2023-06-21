@@ -1,0 +1,8 @@
+.bttn2 {
+    background-color: rgb(168, 233, 241);
+    position: relative;
+    left: 50px;
+    padding: 6px 13px;
+    border-radius: 16px;
+    background-size: 200% 100%;
+}

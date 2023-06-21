@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-main{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(168, 233, 241);
+}
+label.logo {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 75px;
+    padding: 0 100px;
+}
+.active {
+    background-color: rgb(204, 204, 237);
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 8px 16px;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 75px;
+    margin: 0 7px;
+}
+.header-main ul a {
+    text-decoration: none;
+    color: black;
+}
+.section {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(210, 214, 217);
+}
+.logo1 {
+    float: right;
+    margin-top: 60px;
+
+}
+.content p {
+ text-align: justify;
+ font-size: 20px;
+ margin-left: 40px;
+ margin-top: 20px;
+}
+.content h1{
+    font-size: 30px;
+    margin-left: 40px;
+    padding-top: 70px;
+}
+span {
+    color: rgb(15, 18, 202);
+}
+
+.section-2 {
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.title {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.icon {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgb(210, 214, 217);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.icon i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 15px;
+    color: rgb(15, 18, 202);
+}
+.icon .button {
+    background-color: rgb(15, 18, 202);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 15px;
+}
+h4 {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.description p {
+    margin-bottom: 25px;
+    line-height: 27px;
+    font-weight: 100;
+}
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(173, 160, 160);
+}
